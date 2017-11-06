@@ -41,9 +41,9 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav navbar-right">
                             <li class="cl-effect-11"><a href="" data-hover="首页">首页</a></li>
-                            <li class="cl-effect-11"><a href="{% url 'blog:content' 1 %}" data-hover="博客">博客</a></li>
-                            <li class="cl-effect-11"><a href="" data-hover="关于">关于</a></li>
-                            <li class="cl-effect-11"><a href="" data-hover="联系">联系</a></li>
+                            <li class="cl-effect-11"><a href="" data-hover="爬虫">爬虫</a></li>
+                            <li class="cl-effect-11"><a href="" data-hover="项目">项目</a></li>
+                            <li class="cl-effect-11"><a href="" data-hover="STUDY">STUDY</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </nav>
@@ -69,7 +69,7 @@
                 <article class="post post-1">
                     <header class="entry-header">
                         <h1 class="entry-title">
-                            <a href="single.html">Django 博客开发入门教程：前言</a>
+                            <a href="{% url 'blog:content' 1 %}">Django 博客开发入门教程：前言</a>
                         </h1>
                         <div class="entry-meta">
                             <span class="post-category"><a href="#">Django 博客教程</a></span>
@@ -258,8 +258,9 @@
                         </li>
                     </ul>
                 </div>
+
                 <div class="rss">
-                    <a href=""><span class="ion-social-rss-outline"></span> RSS 订阅</a>
+                    <a href=""><span class="ion-social-rss-outline"></span> ABOUT ME</a>
                 </div>
             </aside>
         </div>

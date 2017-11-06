@@ -19,6 +19,6 @@ from blog import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^$', views.index),
+    url(r'^$', views.hello),
     url(r'^article/', include('blog.urls', namespace='blog')),
 ]

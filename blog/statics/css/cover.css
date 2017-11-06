@@ -1,0 +1,69 @@
+html, body{
+    height:100%;
+    margin: 0px;
+    padding:0px;
+}
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited, a:hover{
+    color:#fff;
+}
+
+.slide{
+    background-color: transparent;
+    height: 100%;
+}
+.content{
+    color:#fff;
+    font-size: 30px;
+}
+
+.bg{
+    background: url("../img/light.jpg") no-repeat;
+    /*position: relative;*/
+    height: 100%;
+    line-height: 100%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.bg-cover{
+    -webkit-filter: grayscale(0.3) saturate(0.8);
+    -moz-filter: grayscale(0.3) saturate(0.8);
+    -o-filter: grayscale(0.3) saturate(0.8);
+    /*-ms-filter: grayscale(0.3);*/
+    filter: grayscale(0.3) saturate(0.8);
+}
+
+.bg-content{
+    position:relative;
+    left: 10px;
+    right: 10px;
+    height:600px;
+    line-height: 600px;
+    text-align: center;
+
+}
+.bg-button{
+    position:absolute;
+    top:380px;
+    right:50%;
+    width:90px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 0.5px #e24ce7;
+    background: -webkit-linear-gradient(top,#66B5E6, rgba(127, 111, 192, 0.91));
+    background: -moz-linear-gradient(top,#66B5E6, #9d8fc0);
+    background: linear-gradient(top,#66B5E6, #9d8fc0);
+    background: -ms-linear-gradient(top,#66B5E6, #9d8fc0);
+}
